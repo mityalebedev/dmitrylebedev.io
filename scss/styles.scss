@@ -1,8 +1,10 @@
-@import "~normalize.css/normalize.css";
+@import "normalize";
+@include normalize();
+
 @import "animation";
 
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
-@import url("http://fonts.googleapis.com/css?family=Oxygen:300");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300");
 
 body {
   margin: 10%;
