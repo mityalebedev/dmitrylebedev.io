@@ -13,7 +13,7 @@ body {
   color: #b2b6bd;
 }
 
-.avatar {
+.photo {
   float: left;
   margin: 0 40px 20px 0;
 
@@ -63,12 +63,15 @@ a {
 }
 
 @media handheld, only screen and (max-width: 720px) {
-  .avatar,
+  .name {
+    font-size: 32px;
+  }
+  .photo,
   .content {
     float: none;
   }
 
-  .avatar img {
+  .photo img {
     max-width: 125px;
     max-height: 125px;
   }
